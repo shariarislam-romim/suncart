@@ -6,7 +6,7 @@ import { FcRating } from 'react-icons/fc';
 import { ImPriceTag } from 'react-icons/im';
 
 const PhotoCard = ({photo}) => {
-    console.log(photo)
+    // console.log(photo)
     return (
         <Card className='border rounded-xl'>
             <div className='relative w-full aspect-square'>
@@ -21,27 +21,27 @@ const PhotoCard = ({photo}) => {
 
             </div>
             <div>
-                <h2 className='font-medium'>
+                <h2 className='font-semibold text-xl'>
                     {photo.name}
                 </h2>
             </div>
 
-            <div className='flex justify-between gap-6'>
+            <div className='flex justify-around gap-6'>
             <div className='flex items-center gap-2'>
-                <p><ImPriceTag/></p>
-                <p>{photo.price}</p>
+                
+                <p className='text-lg font-semibold'>{photo.price} BDT</p>
             </div>
 
             <Separator orientation='vertical'></Separator>
 
             <div className='flex items-center gap-2'>
                 <p><FcRating/></p>
-                <p>{photo.rating}</p>
+                <p className='text-yellow-600 font-medium'>{photo.rating}</p>
             </div>
             </div>
 
             <Link href={`/all-photos/${photo.id}`}>
-            <Button variant='outline' className={'w-full'}>View</Button>
+            <Button variant='outline' className={'w-full'}>View Details</Button>
             </Link>
         </Card>
     );

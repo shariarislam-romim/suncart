@@ -17,8 +17,9 @@ const Banner = () => {
           </h1>
 
           <div className="flex gap-5">
-            <Link href="#">
-              <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 text-lg p-5">
+            <Link href="/sign-up">
+              <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 text-lg p-5 transition-all duration-200 
+              hover:scale-[1.02] hover:shadow-lg hover:shadow-black/10">
                 Shop Now
               </Button>
             </Link>

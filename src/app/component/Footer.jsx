@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="">
               
-              <h1 className="text-xl font-semibold tracking-tight text-black dark:text-white">
+              <h1 className=" tracking-tight font-bold text-3xl bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 text-transparent bg-clip-text">
                 SunCart
               </h1>
             </div>
@@ -112,7 +112,7 @@ const Footer = () => {
             </p>
 
             <Link
-              href="/signup"
+              href="/sign-up"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-full 
               bg-black text-white dark:bg-white dark:text-black 
               text-sm font-medium transition-all duration-200 
