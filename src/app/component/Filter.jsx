@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const FilterPage = async () => {
-    const res = await fetch('http://localhost:3001/category.json')
+    const res = await fetch('https://suncart-delta.vercel.app/category.json')
     const categories = await res.json()
     console.log(categories)
     return (

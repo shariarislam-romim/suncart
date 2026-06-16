@@ -8,7 +8,7 @@ const AllProducts = async ({searchParams}) => {
   const category = params.category;
     console.log(category)
 
-        const res = await fetch('http://localhost:3001/data.json',{cache:"no-store"})
+        const res = await fetch('https://suncart-delta.vercel.app/data.json',{cache:"no-store"})
     const photos = await res.json()
     // console.log(photos)
 
