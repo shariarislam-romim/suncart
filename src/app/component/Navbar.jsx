@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
 
    const userData = authClient.useSession()
-  console.log(userData)
+  // console.log(userData)
   const user= userData.data?.user
 
    const handleSignOut = async ()=> {
@@ -33,7 +33,7 @@ const Navbar = () => {
         </ul>
 
         <div className="flex gap-4">
-         {!user  &&  <ul className="flex items-center  text-m gap-3">
+           {!user && <ul className="flex items-center  text-m gap-3">
             <li>
               <Link href={"/sign-up"}>SignUp</Link>
             </li>
@@ -43,12 +43,12 @@ const Navbar = () => {
           </ul>}
           {
             user && <div className="flex gap-4">
-              <Avatar size="sm">
+              <Avatar size="m">
         <Avatar.Image alt={user?.name} src={user?.image} referrerPolicy="no-referrer"/>
         <Avatar.Fallback>{user?.name}</Avatar.Fallback>
       </Avatar>
 
-      <Button onClick={handleSignOut} size="sm" variant="danger">SignOut</Button>
+      <Button onClick={handleSignOut} size="m" variant="danger">SignOut</Button>
             </div>
           }
         </div>
@@ -58,3 +58,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+

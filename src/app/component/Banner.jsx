@@ -26,7 +26,7 @@ const Banner = () => {
 
             <Link href="/pricing">
               <Button variant="outline" className="text-white text-lg p-5">
-                View Pricing
+                View Products
               </Button>
             </Link>
           </div>

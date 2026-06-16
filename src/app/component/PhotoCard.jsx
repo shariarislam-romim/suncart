@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FcRating } from 'react-icons/fc';
-import { ImPriceTag } from 'react-icons/im';
+
 
 const PhotoCard = ({photo}) => {
     // console.log(photo)
@@ -12,7 +12,7 @@ const PhotoCard = ({photo}) => {
             <div className='relative w-full aspect-square'>
                 <Image src={photo?.image}
             fill
-            alt={photo.name}
+            alt={photo?.name}
             sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw,33vw'
             className='object-cover rounded-xl'
             />
