@@ -2,7 +2,7 @@ import React from 'react';
 import PhotoCard from '../component/PhotoCard';
 
 const AllProducts = async () => {
-        const res = await fetch('http://localhost:3001/data.json')
+        const res = await fetch('http://localhost:3001/data.json',{cache:"no-store"})
     const photos = await res.json()
     // console.log(photos)
 

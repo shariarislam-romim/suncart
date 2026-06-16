@@ -5,7 +5,7 @@ import { FcRating } from "react-icons/fc";
 
 const DetailsPage = async ({params}) => {
     const {id} = await params;
-    const res = await fetch('http://localhost:3001/data.json')
+    const res = await fetch('http://localhost:3001/data.json',{cache:"no-store"})
     const photos = await res.json()
 
     const photo = photos.find(p => p.id == id)
