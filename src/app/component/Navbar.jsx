@@ -35,10 +35,10 @@ const Navbar = () => {
         <div className="flex gap-4">
            {!user && <ul className="flex items-center  text-m gap-3">
             <li>
-              <Link href={"/sign-up"}>SignUp</Link>
+              <Link href={"/sign-up"}>Register</Link>
             </li>
             <li>
-              <Link href={"/sign-in"}>SignIn</Link>
+              <Link href={"/sign-in"}>Log In</Link>
             </li>
           </ul>}
           {
@@ -48,7 +48,7 @@ const Navbar = () => {
         <Avatar.Fallback>{user?.name}</Avatar.Fallback>
       </Avatar>
 
-      <Button onClick={handleSignOut} size="m" variant="danger">SignOut</Button>
+      <Button onClick={handleSignOut} size="m" variant="danger">Log Out</Button>
             </div>
           }
         </div>
