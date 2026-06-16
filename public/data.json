@@ -63,7 +63,7 @@
     "stock": 18,
     "description": "Extra-large, quick-dry towel designed for beach vacations.",
     "image": "https://themagictoyshop.co.uk/cdn/shop/files/5dcc473a-cec8-4977-b68a-3eb19f2a0c2e.jpg?v=1747033372&width=1800",
-    "category": "Beach Essentials"
+    "category": "Essentials"
   },
   {
     "id": 7,
@@ -85,6 +85,6 @@
     "stock": 15,
     "description": "Comfortable inflatable float for relaxing in the pool.",
     "image": "https://hips.hearstapps.com/hmg-prod/images/mh-5-25-pool-floats-1621968277.png?crop=0.502xw:1.00xh;0.498xw,0&resize=1200:*",
-    "category": "Beach Essentials"
+    "category": "Essentials"
   }
 ]
