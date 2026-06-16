@@ -17,10 +17,10 @@ const Navbar = () => {
     <div className="border-b px-2">
       <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
         <div className="flex ">     
-          <h2 className="font-bold text-3xl bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 text-transparent bg-clip-text">SunCart</h2>
+          <h2 className="font-semibold md:font-bold text-xl md:text-3xl bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 text-transparent bg-clip-text">SunCart</h2>
         </div>
 
-        <ul className="flex items-center gap-5 text-m">
+        <ul className="flex items-center gap-2 md:gap-5 text-m">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="flex gap-4">
+        <div className="flex gap-2 md:gap-4">
            {!user && <ul className="flex items-center  text-m gap-3">
             <li>
               <Link href={"/sign-up"}>Register</Link>

@@ -26,7 +26,7 @@ const AllProducts = async ({searchParams}) => {
 
             <FilterPage/>
 
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
                 {
                     filteredProduct.map(photo => <PhotoCard key={photo.id} photo={photo}>
 

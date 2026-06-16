@@ -12,7 +12,7 @@ const Hero = async () => {
         <div>
             <h1 className="text-2xl font-bold my-4 mt-8">Popular Products</h1>
 
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
                 {
                     topPhotos.map(photo => <PhotoCard key={photo.id} photo={photo}></PhotoCard>)
                 }
