@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Insulated Water Bottle",
+    "brand": "CoolSip",
+    "price": 22,
+    "rating": 4.8,
+    "stock": 25,
+    "description": "Keeps drinks cold for up to 24 hours during hot summer days.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Hydration"
+  },
+  {
+    "id": 3,
+    "name": "Beach Umbrella",
+    "brand": "SunnyCover",
+    "price": 35,
+    "rating": 4.5,
+    "stock": 12,
+    "description": "Large UV-resistant umbrella for shade at the beach or park.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 4,
+    "name": "Portable Mini Fan",
+    "brand": "BreezeGo",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 30,
+    "description": "Rechargeable handheld fan with multiple speed settings.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "Sunscreen SPF 50",
+    "brand": "SunGuard",
+    "price": 12,
+    "rating": 4.9,
+    "stock": 40,
+    "description": "Broad-spectrum sunscreen that protects against UVA and UVB rays.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 6,
+    "name": "Beach Towel",
+    "brand": "OceanSoft",
+    "price": 20,
+    "rating": 4.4,
+    "stock": 18,
+    "description": "Extra-large, quick-dry towel designed for beach vacations.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Beach Essentials"
+  },
+  {
+    "id": 7,
+    "name": "Summer Straw Hat",
+    "brand": "SunStyle",
+    "price": 16,
+    "rating": 4.5,
+    "stock": 22,
+    "description": "Lightweight straw hat offering sun protection and style.",
+    "image": "https://i.postimg.cc/example7.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 8,
+    "name": "Inflatable Pool Float",
+    "brand": "FloatFun",
+    "price": 28,
+    "rating": 4.7,
+    "stock": 15,
+    "description": "Comfortable inflatable float for relaxing in the pool.",
+    "image": "https://i.postimg.cc/example8.png",
+    "category": "Pool & Beach"
+  }
+]
