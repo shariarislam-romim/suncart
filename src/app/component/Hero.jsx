@@ -2,7 +2,7 @@ import React from 'react';
 import PhotoCard from './PhotoCard';
 
 const Hero = async () => {
-    const res = await fetch('http://localhost:3001/data.json',{cache:"no-store"})
+    const res = await fetch('https://suncart-delta.vercel.app/data.json',{cache:"no-store"})
     const photos = await res.json()
     // console.log(photos)
 
