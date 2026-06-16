@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Accessories",
+    "slug": "accessories"
+  },
+  {
+    "id": 2,
+    "name": "Hydration",
+    "slug": "hydration"
+  },
+  {
+    "id": 3,
+    "name": "Outdoor",
+    "slug": "outdoor"
+  },
+  {
+    "id": 4,
+    "name": "Electronics",
+    "slug": "electronics"
+  },
+  {
+    "id": 5,
+    "name": "Skincare",
+    "slug": "skincare"
+  },
+  {
+    "id": 6,
+    "name": "Beach Essentials",
+    "slug": "beach-essentials"
+  }
+]

@@ -6,15 +6,15 @@ const SummerTips = () => {
         <div id="pricing" className="py-20 text-center container mx-auto">
 
             <h2 className="text-3xl md:text-4xl font-bold mb-2">
-        Summer tips
+        Summer Care tips
       </h2>
-      <p className="text-[#627382FF] mb-12">
-        Choose the plan that fits your needs. Upgrade or downgrade anytime.
+      <p className="text-[#627382FF] mb-12 text-lg">
+        Skincare, healthcare, and essential lifestyle tips for sunny days.
       </p>
 
         <div className="grid md:grid-cols-3 gap-6 px-4 md:px-12">
         
-          <div className={`relative p-8 rounded-2xl shadow-sm transition hover:shadow-2xl hover:-translate-y-2`}>
+          <div className={`relative p-8 rounded-2xl shadow-sm transition hover:shadow-2xl hover:-translate-y-2 space-y-3 bg-accent-soft`}>
             <h3 className="text-3xl font-bold mb-6">Skincare Tips</h3>  
              <p className="text-xl font-semibold mb-1 flex items-center gap-1"><TiTick />Use Sunscreen Daily</p>
               <p className="text-m font-normal text-gray-600">Apply SPF 30+ sunscreen before going outdoors.</p>
@@ -25,7 +25,7 @@ const SummerTips = () => {
              <p className="text-xl font-semibold mb-1 flex items-center gap-1"><TiTick />Cleanse After Sweating</p>
               <p className="text-m font-normal text-gray-600">Wash your face after outdoor activities to remove dirt and excess oil.</p>
         </div>
-          <div className={`relative p-8 rounded-2xl shadow-sm transition hover:shadow-2xl hover:-translate-y-2`}>
+          <div className={`relative p-8 rounded-2xl shadow-sm transition hover:shadow-2xl hover:-translate-y-2  space-y-3 bg-accent-soft`}>
             <h3 className="text-3xl font-bold mb-6">Healthcare Tips</h3>  
              <p className="text-xl font-semibold mb-1 flex items-center gap-1"><TiTick />Stay Hydrated</p>
               <p className="text-m font-normal text-gray-600">Drink plenty of water throughout the day.</p>
@@ -37,7 +37,7 @@ const SummerTips = () => {
               <p className="text-m font-normal text-gray-600">Limit outdoor activities during peak sunlight hours (11 AM – 3 PM).</p>
         </div>
 
-          <div className={`relative p-8 rounded-2xl shadow-sm transition hover:shadow-2xl hover:-translate-y-2`}>
+          <div className={`relative p-8 rounded-2xl shadow-sm transition hover:shadow-2xl hover:-translate-y-2 space-y-3 bg-accent-soft`}>
             <h3 className="text-3xl font-bold mb-6">Other Tips</h3>  
              <p className="text-xl font-semibold mb-1 flex items-center gap-1"><TiTick />Wear Lightweight Clothing</p>
               <p className="text-m font-normal text-gray-600">Choose breathable fabrics like cotton and linen.</p>
